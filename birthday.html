@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(227, 255, 17);
+            background-repeat: no-repeat;
+            background-size: 100% 100vh;
+        }
+        h1{
+            text-align: center;
+            border: 5px solid rgb(246, 23, 246);
+            color: rgb(73, 187, 16);
+            background-color: cyan;
+            border-radius: 30px 100px 30px 100px;
+        }
+        .birthday{
+            display: flex;
+            justify-content: space-around;
+        }
+        .birthday .image img{
+            height: 350px;
+            width: 300px;
+        }
+        .birthday .image{
+            margin: 20px;
+            padding: 20px;
+        }
+        .birthday .text{
+            margin: 20px;
+            padding: 20px;
+            text-align: justify;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        alert("Get ready for the incoming Surprise")
+        var no = parseInt(prompt("Enter a 4 digit no."));
+        if(no>1000){
+            document.write( "I love you" + no);
+        }
+        else{
+            document.write("Enter 4 digit no.");
+        }
+    </script>
+    <h1>Happy Birthday mummy 🎂🎂❤️❤️</h1>
+    <div class="birthday">
+        <div class="image">
+            <img src="../image/mom.jpg" alt="">
+        </div>
+        <div class="text">
+            Happy Birthday, Mom! Wishing you a day filled with joy, laughter, and everything that makes you happy. Thank you for your unconditional love, support, and for always being my guiding light. I am so grateful to have you as my mother. I hope this year brings you all the happiness you deserve and more. May your day be as wonderful as you are! 
+        </div>
+    </div>
+    <div class="button">
+        <center><button type="button"><a href="birthday2.html">More Surprise here😍😍</a></button></center>
+    </div>
+</body>
+</html>
